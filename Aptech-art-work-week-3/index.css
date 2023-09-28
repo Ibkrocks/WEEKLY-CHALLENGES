@@ -1,0 +1,28 @@
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    background-color: #3498db; /* Set the background color */
+    position: relative;
+  }
+  
+  .horizontal-line,
+  .vertical-line {
+    width: 60%; /* Adjust the size of the lines */
+    height: 20%; /* Adjust the size of the lines */
+    background-color: #fff; /* Set the color of the lines */
+    position: absolute;
+  }
+  
+  .horizontal-line {
+    top: 40%; /* Position the horizontal line vertically */
+    left: 20%; /* Position the horizontal line horizontally */
+  }
+  
+  .vertical-line {
+    top: 20%; /* Position the vertical line vertically */
+    left: 40%; /* Position the vertical line horizontally */
+  }
+  
